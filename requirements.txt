@@ -1,0 +1,19 @@
+# --- Core numeric stack ---
+numpy==1.26.4
+
+# --- Data / viz ---
+pandas==2.2.2
+matplotlib==3.8.4
+
+# --- PDF ---
+PyPDF2==3.0.1
+
+# --- NLP ---
+spacy==3.7.5
+# English model downloaded at build time so the app doesn't have to download it at runtime
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
+# (optional explicit pin; compatible with spaCy 3.7.x)
+thinc==8.2.4
+
+# --- App ---
+streamlit>=1.35
