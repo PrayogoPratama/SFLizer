@@ -147,7 +147,7 @@ elif menu == "About":
         **SFLizer v1.0**  
         Developed for the *6th International Conference on Integrating Technology in Education (ITE 2025)*.  
 
-        - Author: *Your Name*  
+        - Author: *Prayogo Adi Putra Pratama*  
         - Built with: Python, Streamlit, spaCy, PyMuPDF, pandas, matplotlib  
         - License: Apache 2.0  
 
@@ -157,3 +157,4 @@ elif menu == "About":
         ✨ Contributions and feedback are welcome!
         """
     )
+
